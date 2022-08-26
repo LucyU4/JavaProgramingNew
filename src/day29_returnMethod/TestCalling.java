@@ -1,9 +1,6 @@
 package day29_returnMethod;
 
-import ArraySelfPractice.numbers;
 import day28_Methods.Numbers;
-
-import java.util.Currency;
 
 public class TestCalling {
     public static void main(String[] args) {
