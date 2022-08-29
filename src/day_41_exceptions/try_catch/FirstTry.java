@@ -6,8 +6,8 @@ public class FirstTry {
         try{
 
             String s = "hello world";
-            System.out.println(s.charAt(5));
-            System.out.println(s.charAt(1));
+            System.out.println(s.charAt(0));
+            System.out.println(s.charAt(2));
 
         } catch (StringIndexOutOfBoundsException e){ // e is a parameter name
             System.out.println("The String was too short. It went out of bounds");
@@ -16,7 +16,7 @@ public class FirstTry {
         System.out.println("Hello");
 
         try{
-            Thread.sleep(-5000);
+            Thread.sleep(-5000);// 500 means 5 seconds, the parameter is milliseconds
         }catch (Exception e){
             System.out.println("Invalid time given");
         }
